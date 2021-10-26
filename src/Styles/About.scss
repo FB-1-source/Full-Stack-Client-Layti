@@ -1,0 +1,17 @@
+@import "../Variables/Variables.scss";
+
+
+.about{
+ font-family: $font;
+ margin-top: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.row{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}

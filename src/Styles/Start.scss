@@ -1,0 +1,230 @@
+@import "../Variables/Variables.scss";
+
+
+.start{
+ background: url("../Images/backgroundtest.jpg"),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+ background-blend-mode: overlay;
+ background-size: cover;
+ height: 650px;
+ color: $textcolor;
+}
+
+.input1{
+ height: 60px;
+ width: 590px;
+ outline: none;
+ position: relative;
+ border:none;
+ border-radius: 10px;
+ font-weight: bold;
+}
+
+
+.doub{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+.row h1 {
+ text-align: center;
+ font-weight: bolder;
+}
+
+.row h5{
+ text-align: center;
+ font-size: 14px;
+}
+
+
+
+.row button{
+ border: none;
+ height: 40px;
+ font-size: 22px;
+ color: white;
+ display: flex;
+ align-items: center;
+}
+
+.new{
+ margin-top: 150px;
+}
+
+.inst{
+ color: black;
+ display: flex;
+ justify-content: center;
+ text-align: left;
+ flex-direction: column;
+ border-top: .5px solid gray;
+ width: 100%;
+ padding: 5px 0 5px 0;
+ height: 70px;
+ padding-left: 3px;
+ font-weight: bolder;
+}
+
+.inst:hover{
+background-color:#F0F0F0;
+}
+
+.testbox{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.searchbox{
+ height: 210px;
+ overflow: hidden;
+ overflow-y: auto;
+ border-radius: 0px;
+ background-color: white;
+ position: relative;
+ margin-top: -8px;
+ width: 590px;
+ border-bottom-left-radius: 10px;
+}
+
+.logoname{
+ font-weight: bolder;
+ color: #8c52ff;
+}
+
+.lo{
+ display: none;
+}
+.homenav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 15px;
+ padding-left: 160px;
+ padding-right: 160px;
+}
+
+.items div{
+ margin-right: 50px;
+}
+
+.items {
+font-weight: bolder;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.items:hover{
+ cursor: pointer;
+}
+
+.navbtn{
+ border-radius: 5px;
+ border-style: solid;
+ border-color: white;
+ background-color: white;
+ color: black;
+ height: 38px;
+ color: #8c52ff;
+ font-weight: bold;
+ text-align: center;
+}
+
+.solorev{
+  height: 100vh;
+  background: url("../Images/backgroundtest2.jpg"),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3));
+  background-blend-mode: overlay;
+  background-size: cover;
+  color: white;
+}
+
+.logocomb a{
+  text-decoration: none;
+}
+.doub2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row h4{
+  text-align: center;
+}
+
+
+.input2{
+ box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04),
+ 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+ height: 60px;
+ width: 590px;
+ outline: none;
+ position: relative;
+ border:none;
+ border-radius: 10px;
+ font-weight: bold;
+}
+
+.support{
+text-decoration: none;
+color: white;
+}
+
+.support:hover{
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+ .input1{
+width: 100%;
+ }
+
+ .new{
+  margin-top: 100px;
+ }
+
+ .searchbox{
+  width: 100%;
+  margin-top: -8px;
+  
+ }
+
+ .homenav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+
+ .side{
+  display: none;
+ }
+
+ .lo{
+  display: flex;
+  width: 50px;
+  object-fit: cover;
+ }
+
+ .logoname{
+  display: none;
+ }
+
+
+
+
+
+
+
+
+}
+
+
+

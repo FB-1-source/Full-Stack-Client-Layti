@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logo {
+  border-radius: 7px;
+}
+
+.inputnav {
+  width: 400px;
+  height: 45px;
+  -webkit-box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+          box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchbox2 {
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: white;
+  height: 200px;
+  width: 400px;
+  border-bottom-left-radius: 10px;
+  -webkit-box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+          box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+  margin-top: -3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .inputnav {
+    width: 250px;
+  }
+  .logo {
+    height: 50px;
+  }
+  .searchbox2 {
+    width: 250px;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

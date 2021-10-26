@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.line {
+  border-bottom: 1.5px solid lightgray;
+}
+
+.questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+.questions h4 {
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 500px;
+  padding-bottom: 200px;
+}
+
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.options1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rev {
+  padding-bottom: 100px;
+  font-weight: bolder;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.revbtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #8c52ff;
+  border-color: #8c52ff;
+  border: 0px;
+  border-radius: 100px;
+  outline: none;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.err {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slider {
+  margin-left: 10px;
+}
+
+.revbtn:hover {
+  opacity: 0.8;
+  -webkit-box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+          box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+}
+
+@media only screen and (max-width: 768px) {
+  .reviews {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .box {
+    width: 100%;
+  }
+  .rev {
+    margin: 0 5px 0px 5px;
+  }
+  .slider {
+    margin-left: 10px;
+  }
+}
+/*# sourceMappingURL=Write.css.map */
