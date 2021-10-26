@@ -14,7 +14,7 @@ function About() {
     <h1>Reviews of your universities nightlife</h1>
     </div>
     <div className="col-lg-6 col-sm-12 px-4">
-    <p>Before going to school do you wish there was a platform you can check to see how the nightlife at your school was? If yes, then you are at the right place! Share your nightlife experience and help prospective students know where to go and where to stay away from. </p>
+    <p>Before going to school do you wish there was a platform you could check and see how the nightlife at your school was? If yes, then you are at the right place! Share your nightlife experience and help prospective students know where to go and where to stay away from. </p>
     </div>
    </div>
    <div className="img1">
