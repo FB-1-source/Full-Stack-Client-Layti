@@ -46,7 +46,7 @@ const validationSchema = Yup.object().shape({
   reviews: Yup.string().required("You have to add text"),
 });
 const submit = (data) => {
-  axios.post("http://localhost:3001/reviews", data).then((response) => {
+  axios.post(`https://full-stack-api-layti.herokuapp.com/reviews/${id}`, data).then((response) => {
     history.push(`/schools/${id}`)
     
   });
