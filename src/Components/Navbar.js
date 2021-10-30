@@ -5,6 +5,7 @@ import {Link} from "react-router-dom"
 import axios from "axios"
 import "../Styles/Start.css"
 import "../Styles/Navbar.css"
+import { createBrowserHistory } from 'history';
 import { useHistory} from "react-router-dom";
 
 
@@ -37,7 +38,7 @@ useEffect(() => {
      return val
     }
    }).map((val) => {
-    return <div key={val.id} onClick={() => {history.push(`/schools/${val.id}`);
+    return <div key={val.id} onClick={() => {window.location.assign(`/schools/${val.id}`);
     }} className="inst">{val.name}</div>
    })}
    </div>
