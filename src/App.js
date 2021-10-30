@@ -10,6 +10,7 @@ import Footer from "./Components/Footer"
 import Carouselsec from './Components/Carouselsec';
 import ScrollToTop from './Components/ScrollToTop';
 import Solorev from './Components/Solorev';
+import PageNotFound from './Components/PageNotFound';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
     <Write/>
     <Footer/>
      </Route>
+     <Route path="*" exact component={PageNotFound}/>
      </Router>
     </div>
   )
