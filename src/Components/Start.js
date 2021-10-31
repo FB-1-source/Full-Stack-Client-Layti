@@ -28,7 +28,7 @@ useEffect(() => {
   <img className="lo" src={lo} alt={lo}></img>
   </div>
   <div className="items">
-    <a className="support" href="mailto:layti@gmail.com?subject=Support"> 
+    <a className="support" href="mailto:contact@layti.com?subject=Support"> 
     <div className="side">Support</div>
     </a>
     <Link to="/rate"><button className="navbtn">Leave Review</button></Link>

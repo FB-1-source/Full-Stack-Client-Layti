@@ -10,7 +10,7 @@ function Featured() {
  <div className="textside">
  <h1>Want More</h1>
  <div>Let us know what to add next!</div>
- <a className="contact" href="mailto:layti@gmail.com?subject=Suggestions">
+ <a className="contact" href="mailto:contact@layti.com?subject=Suggestions">
    <button>Contact</button>
  </a>
  </div>

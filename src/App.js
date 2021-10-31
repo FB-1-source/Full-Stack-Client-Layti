@@ -2,7 +2,7 @@ import React from 'react'
 import Start from './Components/Start'
 import About from './Components/About'
 import Featured from './Components/Featured'
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Schoolinfo from "./Components/Schoolinfo"
 import Write from "./Components/Write"
 import Navbar from "./Components/Navbar"
@@ -17,6 +17,7 @@ function App() {
     <div>
     <Router>
     <ScrollToTop/>
+    <Switch>
     <Route exact path="/">
      <Start/>
      <About/>
@@ -36,7 +37,8 @@ function App() {
     <Write/>
     <Footer/>
      </Route>
-     <Route path="*" exact component={PageNotFound}/>
+     <Route exact path="*" component={PageNotFound}/>
+     </Switch>
      </Router>
     </div>
   )
