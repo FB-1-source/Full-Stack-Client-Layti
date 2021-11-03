@@ -28,8 +28,9 @@ useEffect(() => {
   <Link to="/"><img className="lo" src={lo} alt={lo}></img> </Link>
   </div>
   <div className="items">
-    <div className="side">About</div>
+  <a className="support" href="mailto:contact@layti.com?subject=Support"> 
     <div className="side">Support</div>
+    </a>
   </div>
   </nav>
   <div className="row">
